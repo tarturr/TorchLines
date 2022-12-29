@@ -1,0 +1,17 @@
+name: TorchLines
+version: '${project.version}'
+main: fr.tartur.torchlines.TorchLines
+api-version: 1.19
+authors: [ Tartur_ ]
+description: Plugin made by Tartur, for JAZ2231, to easily place torches.
+website: https://arthur-barbera.me/
+commands:
+  torchspace:
+    description: Changer l'espacement des torches. /torchspace pour plus d'infos.
+    permission: torchlines.space
+  torchset:
+    description: Poser les torches en fonction du contenu du fichier texte.
+    permission: torchlines.set
+  torchload:
+    description: Charger le contenu du fichier texte.
+    permission: torchlines.load

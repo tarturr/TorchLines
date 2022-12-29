@@ -1,0 +1,22 @@
+# Plugin made by Tartur ! I'm JAZ2231's friend !
+
+torch_spacing:
+  x_size: -2
+  y_size: 6
+  z_size: -2
+
+# Que représentent x_size et y_size ?
+# Voilà la réponse :
+
+#               z_size             x_size
+#  Position joueur + ------------------------------------>
+#                  |
+#                  |
+#                  |
+#                  |
+#          y_size  |
+#                  |
+#                  |
+#                  |
+#                  |
+#                  v
